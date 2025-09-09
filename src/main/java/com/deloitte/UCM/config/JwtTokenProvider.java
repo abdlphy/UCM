@@ -8,7 +8,7 @@ import java.util.Date;
 @Component
 public class JwtTokenProvider {
 
-    private final String SECRET_KEY = "q1W4gH9JZ7p8Xf3kL6yR0sVbC2nQjM5dA1uTzYxFhE8vKpL4oG7rBwS9iUeN2yXm"; 
+    private final String SECRET_KEY = ""; 
     private final long EXPIRATION_TIME = 1000 * 60 * 60; // 1 hour
 
     // Generate JWT Token
